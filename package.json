@@ -1,17 +1,18 @@
 {
-  "name": "nodejs",
+  "name": "Andrea",
   "version": "1.0.0",
-  "description": "",
+  "description": "Andrea AI girlfriend service.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@types/node": "^18.0.6",
-    "axios": "^1.7.4",
-    "express": "^4.19.2"
-  }
+    "axios": "^1.3.6",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Jr Busaco",
+  "license": "MIT"
 }
